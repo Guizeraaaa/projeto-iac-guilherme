@@ -1,9 +1,9 @@
 variable "project_region" {
       default = "us-west-1"
-      type = string
+      type=string
 }
 
 variable "project_name" {
-      default="gui"
-      type = string
+      default="gui-projeto-terraform-state"
+      type=string
 }

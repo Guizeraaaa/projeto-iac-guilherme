@@ -1,9 +1,7 @@
 variable "project_region" {
-    default = "us-west-1"
     type = string
 }
 
 variable "project_name" {
-    default = "guibuckets3"
-    type = string
+    type=string
 }
